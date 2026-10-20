@@ -1,0 +1,26 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local dataset
+/choiseDataset/firstTry/severstal-steel-defect-detection/
+/choiseDataset/firstTry/severstal-steel-defect-detection.complete
+
+# Local credentials and environment variables
+.env
+.env.*
+!.env.example
+.kaggle/
+kaggle.json
+
+.agents/
+.codex/
